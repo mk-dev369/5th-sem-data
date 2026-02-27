@@ -1,0 +1,57 @@
+1.Prove that the vector space spanned by {v1, v2, ... vn} is the same as {u1,u2,...un}.
+
+2. can we adapt the same procedure on a set of linearly dependent vectors. if yes, obtain the orthogonal vectors. if no, what happens when you apply gram Schmidt orthonormalization on a set of dependent vectors. does there exist any other interpretation for this? if yes what is it.
+
+3. Prove N(A^T) and R(A) are orthogonal to each other.
+
+4. Can we connect over understanding of system of linear equation their solutions to the four fundamental subspaces? If yes, where does the system of linear equations have unique solution, infinitely many solution and no solution.
+
+5. Prove that there exists 2 basis for W say {e1,e2,e3, ... en} and {v1,v2,... ,vr} with respect to dimension of subspace w and cases of linear combination and elementary row transformations of vectors. give claims and contradictions
+
+6. Prove ax (alpha x) + bv (beta v) + vw (gamma w) = 0 vector. take if gamma is not equal to 0 then w vector is equal to (-alpha/gamma). u vector + (-beta/gamma). v vector
+
+7. Prove if the claim (v(1),v(2), ... , v(n-V(n))) is a independent set, holds, then the (v(1),v(2), ... , v(n-V(n))) will be a basis for column space (A). if the claim does not hold, the vectors is linearly dependent set.
+
+8. Prove R(A) + V(A) = n with rank nullity matrix with respect to sum of dimension of orthogonal complement subspace. Rank(A) = Rank(AT).
+
+9. Prove dimension of w + dimension of w perpendicular is dimension of vector space V with reference to Orthonormal basis. 
+
+10. Use Pythagorus Theorem to show the magnitudes of vectors and remark if beta w and beta w perpendicular are orthogonal basis for w and w perpendicular of V respectively, then beta w union beta w perpendicular form an orthonormal basis for V. use claim and conversely statements.
+
+11. Prove x vector = x(w) vector x(w perpendicular) vector are Unique meaning the decomposition of x vector into R components along orthogonal subspaces is Unique. then prove x*(w perpendicular) + x(w perpendicular) = zero vector and therefore x*(w perpendicular) = x(w perpendicular) and best approximate of vector in a given vector space.
+
+12. What is it to say projection of vector u onto the direction of vector u onto the direction of vector v? what is t scaler? then find t = (u vector. v vector)/(v vector. v vector). compute t. v(vector) and vvT and vuT.
+
+13. Let P = (vvT)/(vTv), P is a square matrix and then P Transpose is [(vvT)/(vTv)]T , then it becomes P again. The projection matrices are symmetric. PT = P. then also Square it, P^2 = P therefore Projection Matrices are Idempotent. define projection Matrix
+
+14. Explain Outer Product of vectors with Rank 1 Matrix. explain statement - Projection Matrices, barring the identity matrix are rank deficient and hence non-inevitable. with example and approximating vector x in w
+
+15. What is it to say best approximate? since we are looking for a vector in w, that approximates x vector in w, best approximate refers to that vector in W among all those trying to approximate x vector which results in minimum error - refers to Least Squared Error. Explain this.
+
+16. What is x(w) vector where w be a subspace of R^k. let x vector be a vector in R^k and x(w) vector be the approximate for x vector in subspace w. tell the cases. then explain ||u vector||2 (square) = u vector.u vector with respect to Orthonormal Basis. Error is ||x vector||2 (square)  - ||x w||2 (square) + Summation from j = 1 to d [(x vector.phi j vector) - (w vector.phi j vector)]^2 . when is this minimum
+
+17. Explain the best approximate of x vector in W is the orthogonal projection of x vector onto W, the subspace of R^k. Why do we need to know the best approximate of some vector in a subspace W of R^k? with respect to 4 fundamental subspaces associated with matrix A.
+
+18. What are the consistency conditions for Ax = b to have solvable solution? we say that if Ax= b has Unique solution or infinitely many solution, the system of linear equations is Consistent.
+
+19. Orthonormal Basis - NA: {phi1, ...phi VA} ; R AT : {u1,u2, ... u(P(A))} ; N AT : {x1, x2,... x V(AT) } ; R(A) : {v1, v2 , ... , v (P(A))}. Explain Basis Expansion.
+
+20. A = [[0,1],[0,0]]. Find N(A) and Col Sp(A). What do you observe?  can you generalize it for a square matrix? Prove the linear dependence or independence of columns, for the given A, N(A) x col sp(A) are the Same. Not all cases are generalizable with respect to Span of Col Sp(A). What are Nilpotent Matrices (A^2 = 0) ?
+
+21. Can  you find 2x2 matrices such that Null Space and Column space of matrices are the same? if yes, find it. 
+
+22. Explain Orthonormalization using Gram Schmidt Procedure. How do we generate e,f,g from u,v,w? were u,v,w be linearly independent set of vectors and let e,f,g be orthogonal vectors generated from u,v,w. How do we know that e,f,g span the same vector space as u,v,w? solve using row transformations system of linear equations. give example.
+
+23. Do e vector, f vector, g vector span the same space as u vector, v vector, w vector? prove their linear independent and orthogonality. Why 0 vector and linearly dependent? Explain QR decomposition.
+
+24. Prove Null space is perpendicular to Row Space (R (A Transpose)) and also equal to each other. Orthogonal complement of each other? expand and explain. and also prove Left Null Space is perpendicular to Column Space? and therefore equal to each other?
+
+25. claim: u, v are linearly independent. proof: alpha u + beta v + gamma z = 0 vector. and gamma z = -(alpha u + beta v) which becomes contradiction since this would mean z belongs to w* not possible. prove any set of (n+1) vectors in R(n) is always a linearly dependent set with reference to orthonormal basis for W.
+
+26. Does X1, X2, X(k-d) are orthonormal set and this set is also orthogonal to all vectors in W, does this span W perpendicular? ONB Expansion. then prove that: rho A Transpose + nullity Greek symbol A = n ; Delta A + nullity Greek symbol A Transpose = m.
+
+27. Direct Sum Decomposition of vector space V - w belongs to W O+ w* belongs to W Perpendicular where intersection = 0 vector. Arbitrarily chosen free variables? A Transpose y = 0. Optimum Solution: x opt . (ATA).ATb = A|b?
+
+28. Singular Value Decomposition us a way of generating row rank matrix - rank 1 matrix, low rank approximation. A Rank rho matrix is expressed as linear combination of rho number of rank 1 matrices. Linear Independent vectors are basis vectors expansion.
+
+29. Prove that eigen value of a Real Symmetric Matrices are Real. Eigen vectors corresponding to distinct eigen values of a Real Symmetric Matrices are always orthogonal. 
